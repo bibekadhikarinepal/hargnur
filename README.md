@@ -48,9 +48,7 @@ This uses UHD tools to capture IQ samples and will write/append to [csi_dataset_
 python3 poc_collector.py
 ```
 Notes:
-- You may need `sudo` access for the UHD capture tool.
+ 
 - Adjust `FREQ`, `RATE`, `GAIN`, and `N_ID_2` in [poc_collector.py](poc_collector.py) to match your band and sector.
 
-## Troubleshooting
-- If `git push` fails, confirm your remote URL and authentication.
-- If plots don’t appear, ensure you have matplotlib installed and the dataset exists.
+ 
